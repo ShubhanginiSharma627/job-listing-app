@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Filters from "./Filter"; // Ensure the file name matches
-import JobList from "./JobList"; // Ensure the file name matches
-import { fetchJobs, setFilterJob } from "./jobSlice";
+import Filters from "../features/Filter"; // Ensure the file name matches
+import JobList from "../features/JobList"; // Ensure the file name matches
+import { fetchJobs, setFilterJob } from "../redux/jobSlice";
 
 const LandingPage = () => {
     const dispatch = useDispatch();
