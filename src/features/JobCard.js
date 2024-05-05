@@ -5,6 +5,7 @@ import {
     Button,
     Card,
     CardContent,
+    Chip,
     Grid,
     Typography,
     useTheme,
@@ -27,6 +28,13 @@ const JobCard = ({ job }) => {
             }}
         >
             <CardContent>
+                <Chip
+                    label="⏳ Posted 5 days ago"
+                    variant="outlined"
+                    style={{
+                        margin: theme.spacing(1, 0),
+                    }}
+                />
                 <Grid container spacing={2} alignItems="start">
                     <Grid item>
                         <Avatar
