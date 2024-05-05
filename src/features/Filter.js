@@ -1,6 +1,5 @@
-import { Autocomplete, Box, Grid, TextField } from "@mui/material";
+import { Autocomplete, Box, Divider, Grid, TextField } from "@mui/material";
 import React from "react";
-
 const Filters = ({ jobs, onFilterChange }) => {
     // Create unique sets for the dropdowns
     const roles = [...new Set(jobs.map((job) => job.jobRole))];
@@ -29,6 +28,18 @@ const Filters = ({ jobs, onFilterChange }) => {
                                 hiddenLabel
                                 placeholder="Roles"
                                 variant="outlined"
+                                InputProps={{
+                                    ...params.InputProps,
+                                    endAdornment: (
+                                        <>
+                                            <Divider
+                                                orientation="vertical"
+                                                flexItem
+                                            />
+                                            {params.InputProps.endAdornment}
+                                        </>
+                                    ),
+                                }}
                             />
                         )}
                         onChange={(event, newValue) =>
@@ -44,6 +55,18 @@ const Filters = ({ jobs, onFilterChange }) => {
                                 {...params}
                                 placeholder="Locations"
                                 variant="outlined"
+                                InputProps={{
+                                    ...params.InputProps,
+                                    endAdornment: (
+                                        <>
+                                            <Divider
+                                                orientation="vertical"
+                                                flexItem
+                                            />
+                                            {params.InputProps.endAdornment}
+                                        </>
+                                    ),
+                                }}
                             />
                         )}
                         onChange={(event, newValue) =>
@@ -59,6 +82,18 @@ const Filters = ({ jobs, onFilterChange }) => {
                                 {...params}
                                 placeholder="Tech Stack"
                                 variant="outlined"
+                                InputProps={{
+                                    ...params.InputProps,
+                                    endAdornment: (
+                                        <>
+                                            <Divider
+                                                orientation="vertical"
+                                                flexItem
+                                            />
+                                            {params.InputProps.endAdornment}
+                                        </>
+                                    ),
+                                }}
                             />
                         )}
                         onChange={(event, newValue) =>
@@ -74,6 +109,18 @@ const Filters = ({ jobs, onFilterChange }) => {
                                 {...params}
                                 placeholder="Experience"
                                 variant="outlined"
+                                InputProps={{
+                                    ...params.InputProps,
+                                    endAdornment: (
+                                        <>
+                                            <Divider
+                                                orientation="vertical"
+                                                flexItem
+                                            />
+                                            {params.InputProps.endAdornment}
+                                        </>
+                                    ),
+                                }}
                             />
                         )}
                         onChange={(event, newValue) =>
@@ -89,6 +136,18 @@ const Filters = ({ jobs, onFilterChange }) => {
                                 {...params}
                                 placeholder="Min Base Pay"
                                 variant="outlined"
+                                InputProps={{
+                                    ...params.InputProps,
+                                    endAdornment: (
+                                        <>
+                                            <Divider
+                                                orientation="vertical"
+                                                flexItem
+                                            />
+                                            {params.InputProps.endAdornment}
+                                        </>
+                                    ),
+                                }}
                             />
                         )}
                         onChange={(event, newValue) =>
