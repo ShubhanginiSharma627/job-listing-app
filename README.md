@@ -5,8 +5,15 @@ This project is a React-based job listing platform that allows users to filter a
 ## Features
 
 -   **Job Listings**: Users can view a list of jobs fetched from a backend API.
--   **Filters**: Users can filter jobs based on various criteria such as company name, role, location, experience, and salary. Due to API limitations, some expected filters like tech stack are not currently functional.
+-   **Filters**: Users can filter jobs based on various criteria such as company name, role, location, experience, and salary.
 -   **Responsive Design**: The application is fully responsive and works well on both desktop and mobile devices.
+
+## Tech Stack
+
+-   **React**: A JavaScript library for building user interfaces.
+-   **Material-UI**: A popular React UI framework for implementing Google's Material Design.
+-   **Redux**: A state management library for JavaScript apps, used here to manage app state globally.
+-   **Redux Toolkit**: A toolset for efficient Redux development.
 
 ## Installation
 
@@ -14,7 +21,7 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/job-listing-platform.git
+    git clone https://github.com/ShubhanginiSharma627/job-listing-app.git
     ```
 2. Navigate into the project directory:
     ```bash
