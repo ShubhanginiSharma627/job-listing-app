@@ -6,6 +6,7 @@ This project is a React-based job listing platform that allows users to filter a
 
 -   **Job Listings**: Users can view a list of jobs fetched from a backend API.
 -   **Filters**: Users can filter jobs based on various criteria such as company name, role, location, experience, and salary.
+-   **Salary Currency**: The currency for salary is automatically derived from the `salaryCurrencyCode` provided in each job object.
 -   **Responsive Design**: The application is fully responsive and works well on both desktop and mobile devices.
 
 ## Tech Stack
