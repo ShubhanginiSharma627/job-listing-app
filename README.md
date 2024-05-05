@@ -52,6 +52,11 @@ https://api.weekday.technology/adhoc/getSampleJdJSON
 
 **Note**: The current API does not provide `tech-stack` and `skills` information, hence the filters for tech stacks are not operational, and the skills section has been removed from the job cards.
 
+## Interface Preview
+
+Here is a preview of the job listing interface:
+<img width="1465" alt="Screenshot 2024-05-05 at 11 00 49 PM" src="https://github.com/ShubhanginiSharma627/job-listing-app/assets/63640650/2f83e5f1-8ad5-4acf-9ba2-3cb7450191dc">
+
 ## Known Issues
 
 -   **Tech Stack Filter Not Working**: Due to the absence of tech stack data in the API response, the filter functionality for tech stacks is currently disabled.
