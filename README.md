@@ -32,6 +32,11 @@ To get started with this project, follow these steps:
     ```bash
     npm install
     ```
+## Deployment Link
+
+```bash
+https://job-listing-app-three.vercel.app/
+```
 
 ## Usage
 
